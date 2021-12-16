@@ -14,3 +14,5 @@ beforeEach(async () => {
 afterAll(async () => {
   await db.destroy() // disconnects from db
 })
+
+expect(process.env.NODE_ENV).toBe()
