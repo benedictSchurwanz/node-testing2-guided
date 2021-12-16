@@ -12,3 +12,8 @@ afterAll(async () => {
   await db.destroy() // disconnects from db
 })
 
+describe('hobbits model', () => {
+  describe('getAll', () => {
+    
+  })
+})
