@@ -20,7 +20,8 @@ describe('hobbits model', () => {
     })
   })
   describe('getById', () => {
-    // the hobbit comes in the correct shape (id, name)
-    it('resolves a hobbit with id, name by id')
+    it('resolves a hobbit with given id, name', async () => {
+
+    })
   })
 })
