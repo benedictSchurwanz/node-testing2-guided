@@ -21,7 +21,8 @@ describe('hobbits model', () => {
   })
   describe('getById', () => {
     it('resolves a hobbit with given id, name', async () => {
-
+      const result = await Hobbit.getById(1)
+      
     })
   })
 })
