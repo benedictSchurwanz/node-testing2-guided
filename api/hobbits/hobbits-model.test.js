@@ -26,7 +26,11 @@ describe('hobbits model', () => {
     })
   })
   describe('insert', () => {
-    it.todo('')
-    it.todo('')
+    it('creates a new hobbit in db', async () => {
+      
+    })
+    it('resolves the new hobbit with id, name', async () => {
+      
+    })
   })
 })
