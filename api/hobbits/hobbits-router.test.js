@@ -15,4 +15,6 @@ afterAll(async () => {
   await db.destroy() // disconnects from db
 })
 
-expect(process.env.NODE_ENV).toBe()
+it('is the correct env', () => {
+  expect(process.env.NODE_ENV).toBe('testing')
+})
