@@ -44,5 +44,8 @@ describe('hobbits router', () => {
     it('responds with new hobbit', async () => {
       expect(res.body).toMatchObject({ id: 5, name: 'gabe' })
     })
+    it('responds with da new (snapshot)', () => {
+      
+    })
   })
 })
