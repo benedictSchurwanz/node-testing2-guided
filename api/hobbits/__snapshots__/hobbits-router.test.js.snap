@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hobbits router [POST] /hobbits responds with da new (snapshot) 1`] = `
+Object {
+  "id": 5,
+  "name": "gabe",
+}
+`;
