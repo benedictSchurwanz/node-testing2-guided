@@ -20,6 +20,8 @@ it('is the correct env', () => {
 })
 describe('hobbits router', () => {
   describe('[GET] /hobbits', () => {
-    it('')
+    it('returns all hobbits', async () => {
+      
+    })
   })
 })
