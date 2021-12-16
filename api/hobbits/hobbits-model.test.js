@@ -28,8 +28,8 @@ describe('hobbits model', () => {
   describe('insert', () => {
     it('creates a new hobbit in db', async () => {
       await Hobbit.insert({ name: 'bilbo' })
-      const bilbo = db('hobbits').where('id', 5)
-      const bilbo = Hobbit.getById('id', 5)
+      const bilbo = await db('hobbits').where('id', 5)
+      const bilbo = await Hobbit.getById('id', 5)
     })
     it('resolves the new hobbit with id, name', async () => {
 
