@@ -24,8 +24,8 @@ server.get("/hobbits/:id", (req, res) => {
   res.end()
 });
 
-server.post("/hobbits", (req, res) => {
-  
+server.post("/hobbits", async (req, res) => {
+  res.status(201).json(await Hobbit.insert())
 });
 
 server.delete("/hobbits/:id", (req, res) => {
