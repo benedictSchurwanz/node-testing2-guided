@@ -26,6 +26,7 @@ describe('hobbits model', () => {
     })
   })
   describe('insert', () => {
-    
+    it.todo('')
+    it.todo('')
   })
 })
