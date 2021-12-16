@@ -20,7 +20,12 @@ function getById(id) {
 
 async function insert(hobbit) {
   // with postgres you can do:
-  return db('hobbits').insert(hobbit, ['id', 'name'])
+  // return db('hobbits').insert(hobbit, ['id', 'name'])
+  return db('hobbits')
+    .insert(hobbit)
+    .then(([id]) => {
+      return getById()
+    })
 }
 
 async function update(id, changes) {
