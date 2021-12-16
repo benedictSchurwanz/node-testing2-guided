@@ -24,5 +24,13 @@ describe('hobbits model', () => {
       const result = await Hobbit.getById(1)
       expect(result).toMatchObject({ id: 1, name: 'sam' })
     })
+    it('resolves a hobbit with given id, name', async () => {
+      const result = await Hobbit.getById(1)
+      expect(result).toMatchObject({ id: 1, name: 'sam' })
+    })
+    it('resolves a hobbit with given id, name', async () => {
+      const result = await Hobbit.getById(1)
+      expect(result).toMatchObject({ id: 1, name: 'sam' })
+    })
   })
 })
