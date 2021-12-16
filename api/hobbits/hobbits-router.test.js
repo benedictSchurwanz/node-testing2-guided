@@ -25,12 +25,11 @@ describe('hobbits router', () => {
       res = await request(server).get('/hobbits')
     })
     it('responds with 200 OK', async () => {
-      const res = await request(server).get('/hobbits')
       expect(res.status).toBe(200)
     })
     it('responds with all hobbits', async () => {
-      const res = await request(server).get('/hobbits')
       expect(res.body).toHaveLength(4)
     })
   })
+  describe
 })
