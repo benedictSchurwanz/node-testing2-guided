@@ -6,6 +6,8 @@ beforeAll(async () => {
   await db.migrate.latest()
 })
 
-beforeEach()
+beforeEach(async () => {
+  
+})
 
 afterAll()
