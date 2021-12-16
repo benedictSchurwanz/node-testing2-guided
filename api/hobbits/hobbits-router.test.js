@@ -18,4 +18,8 @@ afterAll(async () => {
 it('is the correct env', () => {
   expect(process.env.NODE_ENV).toBe('testing')
 })
-describe('')
+describe('hobbits router', () => {
+  describe('[GET] /hobbits', () => {
+    it('')
+  })
+})
