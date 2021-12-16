@@ -18,3 +18,4 @@ afterAll(async () => {
 it('is the correct env', () => {
   expect(process.env.NODE_ENV).toBe('testing')
 })
+describe('')
