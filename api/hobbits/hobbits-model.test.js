@@ -33,7 +33,8 @@ describe('hobbits model', () => {
       // const bilbo = await Hobbit.getById('id', 5) NOOO!!!!
     })
     it('resolves the new hobbit with id, name', async () => {
-      
+      const result = await Hobbit.insert({ name: 'bilbo' })
+      expect(result).toMatchObject({ })
     })
   })
 })
