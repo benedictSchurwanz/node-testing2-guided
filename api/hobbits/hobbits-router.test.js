@@ -33,7 +33,7 @@ describe('hobbits router', () => {
   })
   describe('[POST] /hobbits', () => {
     it('responds with a 210 created', async () => {
-      // await request(server).post('/hobbits').send()
+      // await request(server).put('/hobbits/1').send({})
     })
     it('responds with new hobbit', async () => {
 
