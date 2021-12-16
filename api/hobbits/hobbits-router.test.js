@@ -20,7 +20,7 @@ it('is the correct env', () => {
 })
 describe('hobbits router', () => {
   describe('[GET] /hobbits', () => {
-    it('returns all hobbits', async () => {
+    it('responds with 200 OK', async () => {
       const res = await request(server).get('/hobbits')
       expect(res.status).toBe(200)
     })
