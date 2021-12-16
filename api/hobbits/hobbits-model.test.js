@@ -9,7 +9,7 @@ beforeEach(async () => {
   await db.seed.run()
 })
 afterAll(async () => {
-  await db.destroy() // disconnects from db
+  // await db.destroy() // disconnects from db 
 })
 
 describe('hobbits model', () => {
