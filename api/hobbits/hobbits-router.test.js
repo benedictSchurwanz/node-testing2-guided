@@ -25,7 +25,8 @@ describe('hobbits router', () => {
       expect(res.status).toBe(200)
     })
     it('responds with all hobbits', async () => {
-      // you!
+      const res = await request(server).get('/hobbits')
+      expect(res.body).toHaveLength(4)
     })
   })
 })
