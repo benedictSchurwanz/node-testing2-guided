@@ -31,5 +31,7 @@ describe('hobbits router', () => {
       expect(res.body).toHaveLength(4)
     })
   })
-  describe
+  describe('[POST] /hobbits', () => {
+    it('responds with a 210 created')
+  })
 })
