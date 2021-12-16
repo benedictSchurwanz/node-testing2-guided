@@ -14,6 +14,8 @@ afterAll(async () => {
 
 describe('hobbits model', () => {
   describe('getAll', () => {
-    
+    it('resolves all hobbits in h table', async () => {
+
+    })
   })
 })
