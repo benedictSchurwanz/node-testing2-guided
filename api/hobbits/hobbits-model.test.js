@@ -29,7 +29,8 @@ describe('hobbits model', () => {
     it('creates a new hobbit in db', async () => {
       await Hobbit.insert({ name: 'bilbo' })
       const bilbo = await db('hobbits').where('id', 5)
-      const bilbo = await Hobbit.getById('id', 5)
+      expect(bilbo).toMatchObject
+      // const bilbo = await Hobbit.getById('id', 5) NOOO!!!!
     })
     it('resolves the new hobbit with id, name', async () => {
 
