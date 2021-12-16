@@ -13,7 +13,7 @@ function getAll() {
 }
 
 function getById(id) {
-  return db('hobbits').whe
+  return db('hobbits').where('id', id)
 }
 
 async function insert(hobbit) {
