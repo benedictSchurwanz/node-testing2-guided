@@ -27,10 +27,11 @@ describe('hobbits model', () => {
   })
   describe('insert', () => {
     it('creates a new hobbit in db', async () => {
-      
+      await Hobbit.insert({ name: 'bilbo' })
+      const bilbo = 
     })
     it('resolves the new hobbit with id, name', async () => {
-      
+
     })
   })
 })
