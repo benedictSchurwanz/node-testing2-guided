@@ -19,4 +19,8 @@ describe('hobbits model', () => {
       expect(result).toHaveLength(4)
     })
   })
+  describe('getById', async () => {
+    // the hobbit comes in the correct shape (id, name)
+    
+  })
 })
