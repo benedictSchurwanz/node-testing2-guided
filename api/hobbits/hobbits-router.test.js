@@ -21,7 +21,7 @@ it('is the correct env', () => {
 describe('hobbits router', () => {
   describe('[GET] /hobbits', () => {
     it('returns all hobbits', async () => {
-      const res = await request(server)
+      const res = await request(server).get('/hobbits')
     })
   })
 })
