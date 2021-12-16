@@ -32,6 +32,10 @@ describe('hobbits router', () => {
     })
   })
   describe('[POST] /hobbits', () => {
+    let res
+    beforeEach(async () => {
+      res = await request(server).post('/hobbits/').send({ name: 'gabe' })
+    })
     it('responds with a 210 created', async () => {
       // await request(server).put('/hobbits/1').send({})
     })
