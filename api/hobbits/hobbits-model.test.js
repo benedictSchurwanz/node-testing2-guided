@@ -14,8 +14,11 @@ afterAll(async () => {
 
 describe('hobbits model', () => {
   describe('getAll', () => {
+    let result
+    beforeEach(async () => {
+      result = await Hobbit.getAll()
+    })
     it('resolves all hobbits in h table', async () => {
-      const result = await Hobbit.getAll()
       expect(result).toHaveLength(4)
     })
   })
