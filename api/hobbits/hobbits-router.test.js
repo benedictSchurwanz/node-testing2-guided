@@ -45,7 +45,7 @@ describe('hobbits router', () => {
       expect(res.body).toMatchObject({ id: 5, name: 'gabe' })
     })
     it('responds with da new (snapshot)', () => {
-      
+      expect(res.body).toMatchSnapshot()
     })
   })
 })
