@@ -16,7 +16,7 @@ describe('hobbits model', () => {
   describe('getAll', () => {
     it('resolves all hobbits in h table', async () => {
       const result = await Hobbit.getAll()
-      
+      expect(result).toHaveLength(3)
     })
   })
 })
