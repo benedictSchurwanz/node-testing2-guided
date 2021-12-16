@@ -24,7 +24,7 @@ async function insert(hobbit) {
   return db('hobbits')
     .insert(hobbit)
     .then(([id]) => {
-      return getById()
+      return getById(id)
     })
 }
 
